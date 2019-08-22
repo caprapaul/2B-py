@@ -7,7 +7,7 @@
 
 # This is your bot's token. Not your Client Secret or the Client ID, remember that!
 # KEEP THIS PRIVATE AT ANY TIME!
-token = 'INSERT_TOKEN_HERE'
+token = ''
 
 # The bot's prefix.
 prefix = '!'
@@ -29,3 +29,9 @@ mongodb_user = ''
 mongodb_password = ''
 mongodb_database = 'database'
 mongodb_uri = f'mongodb://{mongodb_user}:{mongodb_password}@localhost:27017/{mongodb_database}'
+
+# The database collection that stores all users
+mongodb_users = 'users'
+
+# The database collection used for unit tests
+mongodb_test = 'test'
