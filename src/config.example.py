@@ -33,5 +33,8 @@ mongodb_uri = f'mongodb://{mongodb_user}:{mongodb_password}@localhost:27017/{mon
 # The database collection that stores all users
 mongodb_users = 'users'
 
+# The database collection that stores all mutes
+mongodb_mutes = 'mutes'
+
 # The database collection used for unit tests
 mongodb_test = 'test'
